@@ -1,0 +1,13 @@
+{
+  "domain": "mid_sussex_bins",
+  "name": "Mid Sussex Bin Collections",
+  "version": "1.0.0",
+  "documentation": "https://github.com/slflowfoon/ha-mid-sussex-bin-collections",
+  "issue_tracker": "https://github.com/slflowfoon/ha-mid-sussex-bin-collections/issues",
+  "codeowners": ["@slflowfoon"],
+  "config_flow": true,
+  "dependencies": [],
+  "requirements": ["beautifulsoup4==4.14.2"],
+  "iot_class": "cloud_polling"
+}
+
