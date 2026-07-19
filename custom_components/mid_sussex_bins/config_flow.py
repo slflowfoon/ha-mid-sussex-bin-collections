@@ -8,7 +8,6 @@ from typing import Any
 
 import voluptuous as vol
 from homeassistant.config_entries import ConfigFlow, ConfigFlowResult
-from homeassistant.const import CONF_POSTCODE
 from homeassistant.helpers.aiohttp_client import async_get_clientsession
 
 from .client import (
@@ -17,7 +16,7 @@ from .client import (
     InvalidResponse,
     MidSussexBinsClient,
 )
-from .const import CONF_PROPERTY_NUMBER, CONF_STREET_NAME, DOMAIN
+from .const import CONF_POSTCODE, CONF_PROPERTY_NUMBER, CONF_STREET_NAME, DOMAIN
 
 _LOGGER = logging.getLogger(__name__)
 POSTCODE_PATTERN = re.compile(

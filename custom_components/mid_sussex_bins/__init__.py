@@ -5,13 +5,13 @@ from __future__ import annotations
 import logging
 
 from homeassistant.config_entries import ConfigEntry
-from homeassistant.const import CONF_POSTCODE, Platform
+from homeassistant.const import Platform
 from homeassistant.core import HomeAssistant
 from homeassistant.exceptions import ConfigEntryNotReady
 from homeassistant.helpers.aiohttp_client import async_get_clientsession
 
 from .client import MidSussexBinsClient
-from .const import CONF_PROPERTY_NUMBER, CONF_STREET_NAME
+from .const import CONF_POSTCODE, CONF_PROPERTY_NUMBER, CONF_STREET_NAME
 from .coordinator import MidSussexBinsCoordinator
 
 _LOGGER = logging.getLogger(__name__)
