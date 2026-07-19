@@ -98,8 +98,8 @@ class BinCollectionsSummarySensor(MidSussexBinsEntity):
 
     _attr_device_class = SensorDeviceClass.TIMESTAMP
     _attr_icon = "mdi:trash-can"
-    _attr_name = "Bin Collections"
-    _attr_suggested_object_id = "bin_collections"
+    _attr_name = "Bin Collections Last Updated"
+    _attr_suggested_object_id = "last_updated"
 
     def __init__(self, coordinator: MidSussexBinsCoordinator) -> None:
         """Initialize the summary sensor."""

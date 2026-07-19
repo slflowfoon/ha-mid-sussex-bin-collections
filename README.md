@@ -11,7 +11,7 @@ available if the collection website is temporarily unavailable.
 
 | Entity | Description |
 | --- | --- |
-| `sensor.mid_sussex_bin_collections_bin_collections` | Last refresh time, with all collection dates as attributes |
+| `sensor.mid_sussex_bin_collections_last_updated` | Last successful refresh time, with all collection dates as attributes |
 | `sensor.mid_sussex_bin_collections_next_rubbish_collection` | Next rubbish collection date |
 | `sensor.mid_sussex_bin_collections_next_recycling_collection` | Next recycling collection date |
 | `sensor.mid_sussex_bin_collections_next_garden_waste_collection` | Next garden waste collection date |
